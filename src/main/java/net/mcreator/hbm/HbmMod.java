@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.hbm.init.HbmModPaintings;
+import net.mcreator.hbm.init.HbmModItems;
+import net.mcreator.hbm.init.HbmModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class HbmMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		HbmModBlocks.REGISTRY.register(bus);
+
+		HbmModItems.REGISTRY.register(bus);
+
+		HbmModPaintings.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,10 +1,50 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ABC123",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abc_123",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hbm/block/ABC123Block.java",
+          "src/main/resources/assets/hbm/models/block/abc_123.json",
+          "src/main/resources/data/hbm/loot_tables/blocks/abc_123.json",
+          "src/main/resources/assets/hbm/models/item/abc_123.json",
+          "src/main/resources/assets/hbm/blockstates/abc_123.json"
+        ]
+      }
+    },
+    {
+      "name": "Logo",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logo",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:ABC123"
+    ]
+  },
   "language_map": {
-    "en_us": {}
+    "ru_ru": {
+      "painting.hbm.logo.author": "HBMTheBobcat",
+      "block.hbm.abc_123": "АБВ123",
+      "painting.hbm.logo.title": "Лого"
+    },
+    "en_us": {
+      "painting.hbm.logo.author": "HBMTheBobcat",
+      "block.hbm.abc_123": "ABC123",
+      "painting.hbm.logo.title": "Logo"
+    }
   },
   "foldersRoot": {
     "name": "~",

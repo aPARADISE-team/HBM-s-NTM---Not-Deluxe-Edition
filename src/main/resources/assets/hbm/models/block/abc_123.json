@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hbm:block/abc123",
+    "up": "hbm:block/abc123",
+    "north": "hbm:block/abc123",
+    "east": "hbm:block/abc123",
+    "south": "hbm:block/abc123",
+    "west": "hbm:block/abc123",
+    "particle": "hbm:block/abc123"
+  },
+  "render_type": "solid"
+}
