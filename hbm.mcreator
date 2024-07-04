@@ -48,7 +48,48 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Advacements",
+        "children": []
+      },
+      {
+        "name": "Fluids",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": []
+      },
+      {
+        "name": "Potion",
+        "children": []
+      },
+      {
+        "name": "Rule",
+        "children": []
+      },
+      {
+        "name": "Dimension",
+        "children": []
+      },
+      {
+        "name": "Tool",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "hbm",
