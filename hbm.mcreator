@@ -74,19 +74,31 @@
         "children": []
       },
       {
-        "name": "Potion",
+        "name": "Potions",
         "children": []
       },
       {
-        "name": "Rule",
+        "name": "Rules",
         "children": []
       },
       {
-        "name": "Dimension",
+        "name": "Dimensions",
         "children": []
       },
       {
-        "name": "Tool",
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Paints",
+        "children": []
+      },
+      {
+        "name": "Commands",
         "children": []
       }
     ]
